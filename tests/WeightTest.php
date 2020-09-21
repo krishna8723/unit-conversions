@@ -2,8 +2,8 @@
 
 namespace KbhandariWeb\UnitConversions\Tests;
 
-use PHPUnit\Framework\TestCase;
 use KbhandariWeb\UnitConversions\Weight;
+use PHPUnit\Framework\TestCase;
 
 class WeightTest extends TestCase
 {
