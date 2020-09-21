@@ -2,8 +2,8 @@
 
 namespace KbhandariWeb\UnitConversions\Tests;
 
-use PHPUnit\Framework\TestCase;
 use KbhandariWeb\UnitConversions\Temperature;
+use PHPUnit\Framework\TestCase;
 
 class TemperatureTest extends TestCase
 {
@@ -12,6 +12,6 @@ class TemperatureTest extends TestCase
     {
         $fahrenheit = Temperature::forCelsius(100)->toFahrenheit();
 
-        $this->assertEquals(212, $fahrenheit );
+        $this->assertEquals(212, $fahrenheit);
     }
 }
