@@ -1,45 +1,52 @@
 {
-    "name": "spatie/unit-conversions",
+    "name": "kbhandariweb/unit-conversions",
     "description": "Perform unit conversions in PHP",
     "keywords": [
-        "spatie",
+        "kbhandariweb",
         "unit-conversions"
     ],
-    "homepage": "https://github.com/spatie/unit-conversions",
+    "homepage": "https://github.com/krishna8723/unit-conversions",
     "license": "MIT",
     "authors": [
-        {
-            "name": "Krishna Bhandari",
-            "email": "krishna_bhandari2014@outlook.com",
-            "homepage": "https://spatie.be",
-            "role": "Developer"
-        }
-    ],
-    "require": {
+    {
+        "name": "Krishna Bhandari",
+        "email": "krishna_bhandari2014@outlook.com",
+        "homepage": "http://krishna-bhandari.com.np",
+        "role": "Developer"
+    }],
+    "require":
+    {
         "php": "^7.4"
     },
-    "require-dev": {
+    "require-dev":
+    {
         "friendsofphp/php-cs-fixer": "^2.16",
         "phpunit/phpunit": "^9.3",
         "vimeo/psalm": "^3.11"
     },
-    "autoload": {
-        "psr-4": {
+    "autoload":
+    {
+        "psr-4":
+        {
             "Spatie\\UnitConversions\\": "src"
         }
     },
-    "autoload-dev": {
-        "psr-4": {
+    "autoload-dev":
+    {
+        "psr-4":
+        {
             "Spatie\\UnitConversions\\Tests\\": "tests"
         }
     },
-    "scripts": {
+    "scripts":
+    {
         "psalm": "vendor/bin/psalm",
         "test": "vendor/bin/phpunit",
         "test-coverage": "vendor/bin/phpunit --coverage-html coverage",
         "format": "vendor/bin/php-cs-fixer fix --allow-risky=yes"
     },
-    "config": {
+    "config":
+    {
         "sort-packages": true
     },
     "minimum-stability": "dev",
